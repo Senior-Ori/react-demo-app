@@ -48,6 +48,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  // Initialize RouterProvider for routes that require authentication
   return <RouterProvider router={router} />;
 }
 
